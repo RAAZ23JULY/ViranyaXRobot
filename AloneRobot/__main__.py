@@ -76,7 +76,7 @@ PM_START_TEX = """
 
 
 PM_START_TEXT = """ 
-*Hᴇʟʟᴏ {} * [!](https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg)
+*Hᴇʟʟᴏ {} * [!](https://te.legra.ph/file/5cf279dec990cf07f4b57.jpg)
 ───────────────────────
 × *I'ᴍ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
 × *I'ᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ Fᴇᴀᴛᴜʀᴇꜱ!*
@@ -84,7 +84,7 @@ PM_START_TEXT = """
 × *Gʀᴏᴜᴩ Mᴀɴᴀɢᴇᴍᴇɴᴛ
 × *Pʟᴀʏ Mᴜsɪᴄ
 
-☆...................𝙰𝙻𝙾𝙽𝙴..................☆ 
+☆...................𝚅𝙸𝚁𝙰𝙽𝚈𝙰..................☆ 
 """
 
 buttons = [
@@ -100,10 +100,10 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🌷Gʀᴏᴜᴘ🌷", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="🏡Oғғɪᴄᴇ🏡", url=f"https://t.me/AloneXBots"),
+        InlineKeyboardButton(text="🏡Oғғɪᴄᴇ🏡", url=f"https://t.me/xentrixbots"),
     ],
     [
-        InlineKeyboardButton(text="🌿Oᴡɴᴇʀ🌿", url=f"https://t.me/ALONE_WAS_BOT"),
+        InlineKeyboardButton(text="🌿Oᴡɴᴇʀ🌿", url=f"https://t.me/Epicstarr"),
     ],
 ]
 
@@ -388,18 +388,18 @@ def Alone_about_callback(update: Update, context: CallbackContext):
             "\n➲  ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜꜱᴇʀꜱ ᴡɪᴛʜ ᴄᴜꜱᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇꜱꜱᴀɢᴇꜱ ᴀɴᴅ ᴇᴠᴇɴ ꜱᴇᴛ ᴀ ɢʀᴏᴜᴘ'ꜱ ʀᴜʟᴇꜱ."
             "\n➲  ɪ ᴄᴀɴ ᴡᴀʀɴ ᴜꜱᴇʀꜱ ᴜɴᴛɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴꜱ, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇꜰɪɴᴇᴅ ᴀᴄᴛɪᴏɴꜱ ꜱᴜᴄʜ ᴀꜱ ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ."
             "\n➲  ɪ ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ ꜱʏꜱᴛᴇᴍ, ʙʟᴀᴄᴋʟɪꜱᴛꜱ, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇꜱ ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅꜱ."
-            "\n\n ☆............𝙱𝚈 » 𝙰𝙻𝙾𝙽𝙴............☆",
+            "\n\n ☆............𝙱𝚈 » 𝚅𝙸𝚁𝙰𝙽𝚈𝙰............☆",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="📍𝐎𝐖𝐍𝐄𝐑📍", url=f"https://t.me/ALONE_WAS_BOT"
+                            text="📍𝐎𝐖𝐍𝐄𝐑📍", url=f"https://t.me/Epicstarr"
                         ),
                         InlineKeyboardButton(
                             text="🎄𝐑𝐄𝐏𝐎🎄", 
-                            url="https://t.me/ALONE_WAS_BOT",
+                            url="https://t.me/Epicstarr",
                         ),
                     ],
                     [
@@ -425,7 +425,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
     if query.data == "Music_":
         query.message.edit_text(
             text=f"""
- **👀𝐇𝐞𝐲 𝐁𝐚𝐛𝐲 🖤\n\n🌺𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 {dispatcher.bot.first_name} 🍷\n\n🌹𝐈 𝐀𝐦 𝐀𝐧 📀 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 🎭 𝐀𝐧𝐝 🌱 𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 🌼 𝐕𝐂 🍄 𝐏𝐥𝐚𝐲𝐞𝐫 📣 𝐖𝐢𝐭𝐡 🕙 24𝐱7 🌀 𝐀𝐜𝐭𝐢𝐯𝐞 » 𝐅𝐨𝐫 🗨️ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 ♨️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎸 𝐀𝐧𝐝 🏓 𝐆𝐫𝐨𝐮𝐩𝐬 🎻\n\n💐𝐅𝐞𝐞𝐥 😍 𝐋𝐚𝐠 📍 𝐅𝐫𝐞𝐞 😇 𝐓𝐨 🕊️ 𝐀𝐝𝐝 𝐌𝐞 𝐈𝐧 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 🤖 𝐀𝐧𝐝 🩸 𝐄𝐧𝐣𝐨𝐲 ❥︎ 𝐒𝐮𝐩𝐞𝐫 💥 𝐇𝐢𝐠𝐡 💫 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 🦞 𝐀𝐮𝐝𝐢𝐨 🎧 𝐀𝐧𝐝 🔊 𝐕𝐢𝐝𝐞𝐨 🌷\n\n☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆ 💞** 
+ **👀𝐇𝐞𝐲 𝐁𝐚𝐛𝐲 🖤\n\n🌺𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 {dispatcher.bot.first_name} 🍷\n\n🌹𝐈 𝐀𝐦 𝐀𝐧 📀 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 🎭 𝐀𝐧𝐝 🌱 𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 🌼 𝐕𝐂 🍄 𝐏𝐥𝐚𝐲𝐞𝐫 📣 𝐖𝐢𝐭𝐡 🕙 24𝐱7 🌀 𝐀𝐜𝐭𝐢𝐯𝐞 » 𝐅𝐨𝐫 🗨️ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 ♨️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎸 𝐀𝐧𝐝 🏓 𝐆𝐫𝐨𝐮𝐩𝐬 🎻\n\n💐𝐅𝐞𝐞𝐥 😍 𝐋𝐚𝐠 📍 𝐅𝐫𝐞𝐞 😇 𝐓𝐨 🕊️ 𝐀𝐝𝐝 𝐌𝐞 𝐈𝐧 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 🤖 𝐀𝐧𝐝 🩸 𝐄𝐧𝐣𝐨𝐲 ❥︎ 𝐒𝐮𝐩𝐞𝐫 💥 𝐇𝐢𝐠𝐡 💫 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 🦞 𝐀𝐮𝐝𝐢𝐨 🎧 𝐀𝐧𝐝 🔊 𝐕𝐢𝐝𝐞𝐨 🌷\n\n☆............𝙱𝚈 » [𝚅𝙸𝚁𝙰𝙽𝚈𝙰](https://t.me/Epicstarr)............☆ 💞** 
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -516,7 +516,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /queue : sʜᴏᴡs ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ʟɪsᴛ.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [𝚅𝙸𝚁𝙰𝙽𝚈𝙰](https://t.me/Epicstarr)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -541,7 +541,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /authusers : sʜᴏᴡs ᴛʜᴇ ᴀᴜᴛʜ ᴜsᴇʀs ʟɪsᴛ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴩ.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [𝚅𝙸𝚁𝙰𝙽𝚈𝙰](https://t.me/Epicstarr)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -575,7 +575,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /blockedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [𝚅𝙸𝚁𝙰𝙽𝚈𝙰](https://t.me/Epicstarr)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -604,7 +604,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 ᴇxᴀᴍᴩʟᴇ: /broadcast -user -assistant -pin ᴛᴇsᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [𝚅𝙸𝚁𝙰𝙽𝚈𝙰](https://t.me/Epicstarr)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -627,7 +627,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /gbannedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇʀ ᴜsᴇʀs.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [𝚅𝙸𝚁𝙰𝙽𝚈𝙰](https://t.me/Epicstarr)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -657,7 +657,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /shayri , /love , /gf , /bf : 𝙶𝙴𝚃 𝚂𝙷𝙰𝚈𝚁𝙸 𝙵𝙾𝚁 𝙲𝙾𝚄𝙿𝙻𝙴𝚂
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [𝚅𝙸𝚁𝙰𝙽𝚈𝙰](https://t.me/Epicstarr)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -680,7 +680,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /play : sᴛᴀʀᴛs ᴩʟᴀʏɪɴɢ ғʀᴏᴍ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴩʟᴀʏʟɪsᴛ ᴏɴ sᴇʀᴠᴇʀ.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [𝚅𝙸𝚁𝙰𝙽𝚈𝙰](https://t.me/Epicstarr)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -701,7 +701,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 /activevideo : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛs ᴏɴ ʙᴏᴛ.
 /autoend [ᴇɴᴀʙʟᴇ|ᴅɪsᴀʙʟᴇ] : ᴇɴᴀʙʟᴇ sᴛʀᴇᴀᴍ ᴀᴜᴛᴏ ᴇɴᴅ ɪғ ɴᴏ ᴏɴᴇ ɪs ʟɪsᴛᴇɴɪɴɢ.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [𝚅𝙸𝚁𝙰𝙽𝚈𝙰](https://t.me/Epicstarr)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -728,7 +728,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /channelplay [ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ] ᴏʀ [ᴅɪsᴀʙʟᴇ] : ᴄᴏɴɴᴇᴄᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀ ɢʀᴏᴜᴩ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋs ʙʏ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴄᴏᴍᴍᴀɴᴅs sᴇɴᴛ ɪɴ ɢʀᴏᴜᴩ.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [𝚅𝙸𝚁𝙰𝙽𝚈𝙰](https://t.me/Epicstarr)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -764,7 +764,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 /logs [ɴᴜᴍʙᴇʀ ᴏғ ʟɪɴᴇs] : ɢᴇᴛ ʟᴏɢs ᴏғ ʏᴏᴜʀ ʙᴏᴛ [ᴅᴇғᴀᴜʟᴛ ᴠᴀʟᴜᴇ ɪs 100 ʟɪɴᴇs]
 
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [𝚅𝙸𝚁𝙰𝙽𝚈𝙰](https://t.me/Epicstarr)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -791,7 +791,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /sudolist : sʜᴏᴡs ᴛʜᴇ sᴜᴅᴏ ᴜsᴇʀs ᴏғ ᴍᴜsɪᴄ ʙᴏᴛ.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆""",
+☆............𝙱𝚈 » [𝚅𝙸𝚁𝙰𝙽𝚈𝙰](https://t.me/Epicstarr)............☆""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -1050,7 +1050,7 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != {OWNER_ID} and DONATION_LINK:
             update.effective_message.reply_text(
-                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)"
+                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [𝚅𝙸𝚁𝙰𝙽𝚈𝙰](https://t.me/Epicstarr)"
                 f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATION_LINK})",
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
@@ -1099,12 +1099,12 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg",
+                animation="https://te.legra.ph/file/5cf279dec990cf07f4b57.jpg",
                 caption=f"""
 {dispatcher.bot.first_name}
 ╔═════ஜ۩۞۩ஜ═════╗
 
-♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗔𝗟𝗢𝗡𝗘](https://t.me/ALONE_WAS_BOT)♨️
+♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗔𝗟𝗢𝗡𝗘](https://t.me/Epicstarr)♨️
   
 ╚═════ஜ۩۞۩ஜ═════╝
 """,
