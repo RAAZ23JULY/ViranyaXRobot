@@ -9,7 +9,7 @@ from AloneRobot import OWNER_ID
 from AloneRobot import telethn as Alone
 from AloneRobot.events import Aloneinline
 from AloneRobot.events import register as Alonebot
-from AloneRobot.modules.no_sql import fsub_db as db
+from AloneRobot.modules.no_sql import db
 
 
 async def is_admin(chat_id, user_id):
